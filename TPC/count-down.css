@@ -1,0 +1,151 @@
+@import url('https://fonts.googlelapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body 
+{
+	background:  #41464c;
+}
+
+/* #construction 
+{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 100vh;
+	padding: 0 100px;
+} */
+#construction .contantBx
+{
+	position: relative;
+	max-width: 600px;
+	z-index: 1000;
+}
+#construction .contentBx h2
+{
+	font-size: 34px;
+	color: #fff;
+	
+}
+#construction .contentBx p
+{
+	font-size: 15px;
+     line-height: 18px;
+     color: #939393;
+}
+#construction .contentBx .countdown
+{
+	display: flex;
+	margin: 20px 0;
+}
+#construction .contentBx .countdown .time
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: #fff;
+	margin-right: 20px;
+	font-size: 48px;
+	min-width: 110px;
+	font-weight: 700;
+	padding: 10px 5px 15px;
+	border-radius: 4px;
+	color: #7289da;
+}
+#construction .contentBx .countdown .time span
+{
+	margin-top: -10px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #41464c;
+}
+#construction .contentBx a
+{
+	position: relative;
+	margin-top: 10px;
+	display: inline-block;
+	background:#7289da;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding: 15px 35px;
+	text-decoration: none;
+	border-radius: 40px;
+}
+#construction .imgBx img
+{
+	position: relative;
+	max-width: 500px;
+	width: 100%;
+	margin-top: 100px;
+	z-index: 2;
+}
+
+@media (max-width: 991px)
+{
+	/* #construction 
+	{
+		flex-direction: column;
+		padding-top: 150px;
+		height: auto;
+	} */ 
+	
+	#construction .contentBx
+	{
+		max-width: 100%
+	}
+	#construction .imgBx img
+	{
+		margin-top: 0;
+	}
+
+}
+@media (max-width: 767px)
+{
+	
+	#construction
+	{
+		flex-direction: column;
+		padding: 150px 20px 100px;
+		height: auto;
+	}
+	#construction .contentBx h2
+	{
+		margin-bottom: 15px;
+		font-size: 25px;
+	}
+	#construction .contentBx p
+	{
+		font-size: 16px;
+		margin-bottom: 12px;
+	}
+	#construction .contentBx .countdown .time
+	{
+		font-size: 30px;
+		min-width: 70px;
+		margin-right: 5px;
+	}
+	#construction .contentBx .countdown .time span
+	{
+		font-size: 14px;
+	}
+	#construction .contentBx a
+	{
+		position: relative;
+		margin-top: 10px;
+		display: inline-block;
+		background: #fff;
+		color: #7289da;
+		font-size: 16px;
+		letter-spacing: 2px;
+		padding: 10px 25px;
+		text-decoration: none;
+		border-radius: 40px;
+	}
+	
+	#construction .contentBx .countdown{
+		margin-right: 5px;
+	}
+	
+	
+}
